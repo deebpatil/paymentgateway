@@ -1,0 +1,100 @@
+*{margin: 0;
+padding: 0;}
+.navbar{
+	display: flex;
+	height: 60px;
+}
+.logo{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+
+}
+.logo img{
+	width: 30%;
+	border-radius: 50px;
+}
+.nav-list{
+	width: 50%;
+	background-color:black;
+	display: flex;
+	text-align: center;
+	}
+.nav-list li{
+	list-style: none;
+	padding: 26px 30px;
+
+}
+.nav-list li a{
+	text-decoration: none;
+	color: white;
+
+}
+.nav-list li a:hover{
+	color: grey;
+}
+.right-nav{
+	width: 50%;
+	background-color: black;
+	text-align: right;
+	padding-top: 8px;
+	padding-right: 15px;
+}
+#search{
+	padding: 5px;
+	font-size: 19px;
+	border: 2px solid grey;
+	border-radius: 12px;
+}
+.btn-sm
+{
+	
+	border-radius: 5px;
+	color: white;
+	background: blue;
+	height: 25px;
+}
+
+#banner{
+	width: 100%;
+	text-align: center;
+}
+#banner img{
+	
+	width: 80%;
+	height: 400px;
+}
+
+.section{
+	width: 20%;
+	margin: 10px;
+	
+}
+.icon{
+	width: 80px;
+	height: 80px;
+	
+}
+.donate{
+	text-align: center;
+	padding-top: 30px;
+}
+.donate button{
+	height: 50px;
+	width: 160px;
+	
+}
+.donate button:hover{
+	background-color: aquamarine;
+}
+.donate a{
+	text-decoration: none;
+}
+.dn{
+	border-radius: 15px;
+	background-color: lightgreen;
+	font-size: 20px;
+
+}
